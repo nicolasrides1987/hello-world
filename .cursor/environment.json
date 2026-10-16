@@ -1,0 +1,4 @@
+{
+  "name": "hello-world",
+  "install": "test -f README.md\ngrep -q 'Hello world' README.md\necho \"hello-world repository validated ($(wc -l < README.md) lines in README.md)\""
+}
